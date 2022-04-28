@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-inquirer.prompt([
+const questions = [
     {
         type: 'input',
         name: 'title',
@@ -49,7 +49,7 @@ inquirer.prompt([
             'GNU General Public License v2.0', 
             'GNU Lesser General Public License v.2.1', 
             'Mozilla Public License 2.0', 
-            'The Unlicense'
+            'The Unlicense',
         ],
     },
     {
@@ -62,4 +62,11 @@ inquirer.prompt([
         name: 'email',
         message: 'Please enter your email address.',
     },
-])
+];
+
+inquirer.prompt(questions).then ((data) => {
+    let readmeCreate = `readme text ${data.title}`;
+    const fileName = `README.md`;
+    fs.writeFile(fileName, readmeCreate, (err) =>
+    err ? console.log(err) : console.log('Success!'));
+});
