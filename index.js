@@ -28,7 +28,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'constribution',
+        name: 'contribution',
         message: 'Please describe the contribution guidelines for this project.',
         validate: (value) => {if(value){return true} else {return 'Enter a value to continue.'}}
     },

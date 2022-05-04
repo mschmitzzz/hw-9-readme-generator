@@ -10,7 +10,7 @@ This is a command line application using Node.js to help the user easily create 
 
 [GitHub Repo](https://github.com/mschmitzzz/hw-9-readme-generator)
 
-[Video Link](https://github.com/mschmitzzz/hw-9-readme-generator)
+[Video Link](https://drive.google.com/file/d/1lIqyrtvoLPe_WbJ8VnTH1Vuj3YudmTUO/view)
 
 ## Table of Contents
 
