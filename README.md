@@ -16,7 +16,6 @@ This is a command line application using Node.js to help the user easily create 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 
 ## Installation
